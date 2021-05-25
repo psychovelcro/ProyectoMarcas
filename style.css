@@ -57,15 +57,22 @@ header {
 }
 
 .foto1{
-    height: 200px;
-    width: 200px;
-    opacity: 0.6; 
+    height: 400px;
+    /* opacity: 0.6;  */
+    padding-left: 900px;
 }
 
 .textos {
     padding-top: 30px;
     width: 60%;
     color: rgb(173, 171, 48);
+}
+
+.textopresentacion{
+    color: rgb(54, 175, 231);
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Open Sans';
 }
 
 .textos h1 {
@@ -173,8 +180,8 @@ header {
 
 
 	.social ul li a:hover {
-		background: rgb(255, 255, 255); 
-		padding: 10px 30px; 
+		background: rgb(47, 122, 126); 
+		padding: 10px 60px; 
 	}
     
 
