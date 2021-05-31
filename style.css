@@ -12,6 +12,7 @@ body {
     background-position: fixed;
     background-image: url('IMG/gif1.gif');
     background-size: cover;
+    background-repeat: no-repeat;
     /* background-repeat: round;  */
 }
 
@@ -45,7 +46,7 @@ header {
     width: 95%;
     max-width: 1200px;
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: space-around;
     margin: auto;
 }
@@ -131,6 +132,7 @@ header {
     background: linear-gradient(#2d5e8b, #35423e);
     font-size: 32px;
     /* opacity: 0.8; */
+
 }
        
 .uno {
@@ -251,7 +253,11 @@ header {
     }
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:480px) {
+    body{
+      margin-bottom: 270px;
+    }
+    
     .container {
         width: 100%;
         flex-wrap: wrap-reverse;
@@ -264,6 +270,35 @@ header {
     .textos h1 {
         font-size: 60px;
     }
+
+    .enlaces{
+        text-align: center;
+        align-items: center;
+    }
+    .icono{
+        text-align: center;
+    }
+    .textos a{
+    align-items: center;
+    text-align: center;
+    display: contents;
+   
+    
+    }
+
+    .foto1{
+        display: none;
+    }
+
+    .social{
+        display: none;
+
+    }
+
+    .wave{
+        display: none;
+    }
+
 }
 
 @media screen and (max-width:340px) {
